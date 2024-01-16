@@ -1,0 +1,22 @@
+
+admin-info{
+  flex-wrap: wrap;
+  color: var(--Primary-Color);
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap
+}
+.button-size{
+  width:120px;
+}
+.fixed-width-btn{
+  width:130px;
+}
+/*  
+.navbar{
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+}

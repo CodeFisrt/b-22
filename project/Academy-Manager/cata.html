@@ -1,0 +1,202 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <style>
+      .fixed-width-btn {
+        width: 150px;
+      }
+    </style>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylestyle" href="catagery.css">
+  </head>
+  <body>
+   
+    <!-- ... -->
+    
+    <button type="button" class="btn btn-primary fixed-width-btn">Button 1active</button>
+    <button type="button" class="btn btn-primary fixed-width-btn">Button 2inactive</button>
+    <div class="span2">
+      <p><button class="btn btn-primary btn-block">Save</button></p>
+      <p><button class="btn btn-success btn-block">Download</button></p>
+  </div>
+
+  <button type="button" class="btn btn-primary" style="width: 150px;">Button 1active</button>
+  <button type="button" class="btn btn-primary" style="width: 150px;">Button 2inactive</button>
+
+    <form class="admin-info d-flex mx-3" >
+              
+        <img src="../assets/admin.svg" width="30" height="30"  alt="">&nbsp;
+        <a class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Admin</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Change Password</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
+          <a>
+      </form>
+
+
+      <div class="section-1 pt-5 px-2 py-2">
+
+        <nav class="navbar navbar-light bg-light justify-content-end ">
+            <div class="container-fluid">
+            <a class="navbar-brand " href="#">
+              <i class="fas fa-align-justify-start"></i>
+              
+             &nbsp;&nbsp; Category Manager
+            </a>
+            <form class="admin-info d-flex mx-3" >
+              
+                <img src="../assets/admin.svg" width="30" height="30"  alt="">&nbsp;
+                <a class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Admin</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Change Password</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  <a>
+              </form>
+            </div>
+          </nav>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="exampleCheckbox">
+                  <label class="form-check-label" for="exampleCheckbox">
+                    Checkbox
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search...">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button">Search</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+          <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button><hr>
+
+
+
+
+<div class="container mt-5">
+ 
+</div>
+<body>
+
+  <div class="container mt-5">
+    <button type="button" class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+      <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"/>
+      <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"/>
+    </svg></button>
+  </div><hr>
+  <button type="button" class="popupbox">
+    </button>
+  </button>
+
+  <!-- Modal -->
+  <div class="modal" tabindex="-1" role="dialog" id="editModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">EDITCATEGORY</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <label for="floatingInput">category Name</label><span>*</span><br><br>
+          <div class="form-floating mb-2">
+            <input type="text" class="form-control" id="floatingInput" placeholder="Adhiraj">
+            </div>
+       
+               
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#editModal">
+                  Edit
+                </button> 
+             </div>
+           </div>
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<hr>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#commonModal" data-content="Content for Button 1">
+  Open Modal 1
+</button>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#commonModal" data-content="Content for Button 2">
+  Open Modal 2
+</button>
+
+<!-- Common Modal -->
+<div class="modal fade" id="commonModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Common Modal Title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p id="modalContent">Modal content goes here.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- You can add more buttons here if needed -->
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+  </html>
