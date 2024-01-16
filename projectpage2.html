@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <div class="main d-flex justify-content-between py-4 ">
+        <div class="nav">
+            <h5 class=" " style=" color: #45818e;">Teacher Manager</h5>
+        </div>
+        <div class="nav-wrap d-flex">
+            <div class="svg py-1 px-1 " style=" background-color: #45818e;"> <svg xmlns="http://www.w3.org/2000/svg"
+                    height="16" width="14"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                </svg></div>
+            <h5 class="admin   px-1" style=" color: #45818e;">Admin</h5>
+            <select class="select" style="border: none;">
+                <option selected></option>
+                <option value="">Password</option>
+                <option value="">Logout</option>
+            </select>
+        </div>
+    </div>
+    <div class="padding py-5 px-5 bg-secondary bg-opacity-25">
+        <div class="button">
+            <button type="button" class=" btn border-0 btn-square px-5 py-3 mb-3"
+                style=" background-color: #45818e;">+Add Extra
+                Class</button>
+        </div>
+
+        <table class="table table-borderless col-12">
+            <thead>
+                <tr role="row " class="mb-3">
+                    <td style=" color: #45818e;">
+                        <label class="fs-5 px-3  pb-4  " style=" color: #45818e;" colspan="7">Show
+                            <select class="px-3 mx-2 ">
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                                <option value="-1">All</option>
+                            </select> Entries</label>
+                    </td>
+
+                    <td class="" style=" color: #45818e;">
+                        <label class="d-flex justify-content-end pb-4 pt-4">Search:
+                            <input type="search" class="">
+                        </label>
+                    </td>
+                </tr>
+            </thead>
+            <div class="table-responsive">
+                <table class="col-12">
+                    <thead>
+                        <tr role="row" class="  py-3" style=" background-color: #45818e;">
+                            <th class="sorting_asc py-3" rowspan="1" colspan="1" style="width: 40px;" aria-label="">
+                                <input type="checkbox" class="checkAllAttendance">
+                            </th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;" aria-label="#">#
+                            </th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 66px;" aria-label="Name">
+                                Name
+                            </th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 400px;"
+                                aria-label="Email">
+                                Email</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 92px;"
+                                aria-label="Education">Education</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 53px;"
+                                aria-label="Gender">
+                                Gender</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 104px;"
+                                aria-label="Batches">
+                                Batches</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 108px;"
+                                aria-label="Subjects">Subjects</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 101px;"
+                                aria-label="Status">
+                                Status</th>
+                            <th class="no-sort sorting_disabled" rowspan="1" colspan="1"
+                                style="width: 0px; display: none;" aria-label="Action">Action</th>
+                            <th class="no-sort sorting_disabled" rowspan="1" colspan="1"
+                                style="width: 0px; display: none;" aria-label="Added By">Added By</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-light">
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">1</td>
+                            <td class="" style="color: #45818e;"><img src="images/vijay.png" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                <br> Vijay
+                            </td>
+                            <td class="" style="color: #45818e;">vijay@eacademy.com</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">class Test</td>
+                            <td class="" style="color: #45818e;">Vijay Science</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">Active</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">2</td>
+                            <td class="" style="color: #45818e;"><img src="images/onair.png" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">اشالبيطر</td>
+                            <td class="" style="color: #45818e;">admin@eacademy.com</td>
+                            <td class="" style="color: #45818e;">الثانوي</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;"> التاريخ</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0 bg-danger text-light">INACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">3</td>
+                            <td class="" style="color: #45818e;"><img src="images/The_advantages.png" alt=""
+                                    class="img-fluid" style="height: 40px; width: 40px;"> <br>Rr</td>
+                            <td class="" style="color: #45818e;">rr@gmail.com </td>
+                            <td class="" style="color: #45818e;">B.Tech</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">Biology,Js,Tamil</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">4</td>
+                            <td class="" style="color: #45818e;"><img src="images/CR7-CLUB1.png" alt=""
+                                    class="img-fluid" style="height: 40px; width: 40px;">
+                                <br>Testw
+                            </td>
+                            <td class="" style="color: #45818e;">testtwo@gmail.com </td>
+                            <td class="" style="color: #45818e;">Bbv</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">Numer1</td>
+                            <td class="" style="color: #45818e;">Gujlishl</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">5</td>
+                            <td class="" style="color: #45818e;"><img src="images/CR7-CLUB1.png" alt=""
+                                    class="img-fluid" style="height: 40px; width: 40px;">
+                                <br>Testwo
+                            </td>
+                            <td class="" style="color: #45818e;">testtwo@gmail.com </td>
+                            <td class="" style="color: #45818e;">Bdf</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">Numer1</td>
+                            <td class="" style="color: #45818e;">Tamil</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">6</td>
+                            <td class="" style="color: #45818e;"><img src="images/flipkartlogo.png" alt=""
+                                    class="img-fluid" style="height: 40px; width: 40px;"> <br>Ross</td>
+                            <td class="" style="color: #45818e;">ross@gmail.com </td>
+                            <td class="" style="color: #45818e;">BE.d</td>
+                            <td class="" style="color: #45818e;">Female</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">Htmls</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">7</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                Bala<br>Bala
+                            </td>
+                            <td class="" style="color: #45818e;">admin@admin.com </td>
+                            <td class="" style="color: #45818e;">MA.Bed</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">Test Class,<br> Jatbatch</td>
+                            <td class="" style="color: #45818e;">Tamil</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">8</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">سمس<br>حمد
+                                صابرمستر
+                                احمد صابر</td>
+                            <td class="" style="color: #45818e;">123@gmail.com </td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">Htmls</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">9</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">WASIM
+                                <br>RAJA
+                                <br>
+                                WASIM <br> RAJA
+                            </td>
+                            <td class="" style="color: #45818e;">stairs.pvt2009@gmail.com </td>
+                            <td class="" style="color: #45818e;"> POST <br> GRADUATE</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">JS</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0  bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">10</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">Tienit<br>Tienit
+                            </td>
+                            <td class="" style="color: #45818e;">tienit.vn1@gmail.com </td>
+                            <td class="" style="color: #45818e;"> Daihoc</td>
+                            <td class="" style="color: #45818e;">Female</td>
+                            <td class="" style="color: #45818e;">Hung - Du An</td>
+                            <td class="" style="color: #45818e;">Htmls,Cs,Js</td>
+                            <td class="" style="color: #45818e;"><button
+                                    class="btn border-0 bg-warning text-light">ACTIVE</button></td>
+                        </tr>
+
+
+
+                    </tbody>
+                    <tfoot>
+                        <tr class=" bg-light">
+                            <td class=" fs-4 pt-5" style="color: #45818e;" colspan="8">Showing 1 to 10 of 16 entries
+                            </td>
+                            <td class="d-flex justify-content-end px-1  pt-5 fs-3 " style=" color: #45818e;"
+                                colspan="8">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-chevron-left mt-2 mx-3" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                </svg>
+                                <div class="foot-digit d-flex justify-content-center align-items-center text-light px-1"
+                                    style="background-color:#45818e; height: 40px; width: 40px; ">1</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-chevron-right mt-2 mx-3" viewBox="0 0 16 16"></svg>
+                                <div class="foot-digit d-flex justify-content-center align-items-center text-light"
+                                    style="background-color:#45818e; height: 40px; width: 40px; ">2</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-chevron-right mt-2 mx-3" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </td>
+
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+            </div>
+        </table>
+    </div>
+
+
+
+
+    <div class="main d-flex justify-content-between py-4 ">
+        <div class="nav">
+            <h5 class="" style=" color: #45818e;">Teacher Manager</h5>
+        </div>
+        <div class="nav-wrap d-flex">
+            <div class="svg py-1 px-1 bg-primary bg-opacity-50 "> <svg xmlns="http://www.w3.org/2000/svg" height="16"
+                    width="14"
+                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
+                </svg></div>
+            <h5 class="admin   px-1" style=" color: #45818e;">Admin</h5>
+            <select class="select" style="border: none;">
+                <option selected></option>
+                <option value="">Password</option>
+                <option value="">Logout</option>
+            </select>
+        </div>
+    </div>
+    <div class="pad padding py-5 px-5 bg-secondary bg-opacity-25">
+        <div class="button">
+            <button type="button" class=" btn border-0 btn-square  px-5 py-3 mb-3"
+                style=" background-color: #45818e;">+Add
+                Extra
+                Class</button>
+        </div>
+        <table class="table table-borderless col-12">
+            <thead>
+                <tr role="row ">
+                    <td class="" style="color: #45818e;">
+                        <label class="fs-5 px-3  pb-4 " style=" color: #45818e;" colspan="7">Show
+                            <select class="px-3 mx-2">
+                                <option value="10">10</option>
+                                <option value="25">25</option>
+                                <option value="50">50</option>
+                                <option value="100">100</option>
+                                <option value="-1">All</option>
+                            </select> Entries</label>
+                    </td>
+
+                    <td class="" style="color: #45818e;">
+                        <label class="d-flex justify-content-end pb-4 pt-4 py-5">Search:
+                            <input type="search" class="">
+                        </label>
+                    </td>
+                </tr>
+            </thead>
+            <div class="table-responsive">
+                <table class="col-12">
+                    <thead>
+                        <tr role="row" class="  py-3" style=" background-color: #45818e;">
+                            <th class="sorting_asc py-3" rowspan="1" colspan="1" style="width: 40px;" aria-label="">
+                                <input type="checkbox" class="checkAllAttendance">
+                            </th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;" aria-label="#">#
+                            </th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 66px;" aria-label="Name">
+                                Name
+                            </th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 400px;"
+                                aria-label="Email">
+                                Email</th>
+                            <th class="sorting_disabled col-4" rowspan="1" colspan="1" style="width: 92px;"
+                                aria-label="Education">Education</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 53px;"
+                                aria-label="Gender">
+                                Gender</th>
+                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 104px;"
+                                aria-label="Batches">
+                                Batches</th>
+
+                        </tr>
+                    </thead>
+                    <tbody class="bg-light">
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">11</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                Njjfnjgnf Njjfnjgnf
+                            </td>
+                            <td class="" style="color: #45818e;">sddfsdf@jnhfhue.in</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">Nmjkkj, ICC 6th Evening Batch 6-7pm</td>
+
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">12</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                Hello Hello
+                            </td>
+                            <td class="" style="color: #45818e;">abc@gmail.com</td>
+                            <td class="" style="color: #45818e;">mji</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">Morning New</td>
+
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">13</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                Sunny Sunny
+                            </td>
+                            <td class="" style="color: #45818e;">experthometuition730@gmail.com</td>
+                            <td class="" style="color: #45818e;"></td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;"></td>
+
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">14</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                Tushar Tushar
+                            </td>
+                            <td class="" style="color: #45818e;">
+                                tushar@gmail.com</td>
+                            <td class="" style="color: #45818e;">mca</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">8pm-9pm, Nmjkkj</td>
+
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">15</td>
+                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                Free Free
+                            </td>
+                            <td class="" style="color: #45818e;">
+                                free2@free.com</td>
+                            <td class="" style="color: #45818e;">yy</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">Morning, Online Physics By Kamlesh Bhai</td>
+
+                        </tr>
+                        <tr role="row">
+                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
+                            <td class="" style="color: #45818e;">15</td>
+                            <td class="" style="color: #45818e;"><img src="images/alexa.jpg" alt="" class="img-fluid"
+                                    style="height: 40px; width: 40px;">
+                                Alexa
+                            </td>
+                            <td class="" style="color: #45818e;"> alexa@eacademy.com</td>
+                            <td class="" style="color: #45818e;">mba</td>
+                            <td class="" style="color: #45818e;">male</td>
+                            <td class="" style="color: #45818e;">Morning, ENGLISH SPEAKING, Test Class, Batch 1 (Age 6-)
+                            </td>
+
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr class=" bg-light">
+                            <td class=" fs-4 pt-5" style=" color: #45818e;" colspan="6">Showing 11 to 16 of 16 entries
+                            </td>
+                            <td class="d-flex justify-content-end px-1 pt-5 fs-3" style=" color: #45818e;" colspan="6">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-chevron-left mt-2 mx-3" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
+                                </svg>
+                                <div class="foot-digit d-flex justify-content-center align-items-center text-light"
+                                    style="background-color:#45818e; height: 40px; width: 40px; ">2</div>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-chevron-right mt-2 mx-3" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
+                                </svg>
+                            </td>
+
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+
+
+
+</html>
