@@ -1,0 +1,65 @@
+
+    
+
+body {
+    padding-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* background: #f7f7fb; */
+    background-color:white;
+    color:black;
+    -webkit-font-smoothing: antialiased;
+
+}
+    .Server{
+
+        padding: 2%;
+    }
+
+
+::after, ::before {
+    
+    box-sizing: border-box;
+}
+
+.button{
+    padding-top: 3%;
+    padding: 2%;
+    color: #ffffff;
+    padding-bottom: 2%;
+    
+}
+
+body{
+    padding-top: 5%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.group1{
+    padding: 1%;
+    padding-top: 3%;
+    
+}
+.group2{
+    padding: 1%;
+    
+    
+    
+}
+.group3{
+    padding: 1%;
+}
+.group4{
+    padding: 1%;
+}
+.group5{
+    
+    margin-top: 3%;
+    padding: 2%;    
+}
+.text1{
+    padding: 5px;
+}
+    
