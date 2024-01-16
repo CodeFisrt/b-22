@@ -9,30 +9,47 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
         integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
 </head>
 
 <body>
 
 
-    <div class="main d-flex justify-content-between py-4 ">
-        <div class="nav">
-            <h5 class=" " style=" color: #45818e;">Teacher Manager</h5>
+
+    <nav class="navbar  bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <div class="d-flex">
+                    <div class="back">
+                        <div class="p-1">
+                            <div class="bar1 mb-1"></div>
+                            <div class="bar1 bar2"></div>
+                            <div class="bar1 mt-1"></div>
+                        </div>
+                    </div>
+                    <h5 class="headings ms-5 mt-1">Teacher Manager</h5>
+                </div>
+            </a>
+            <div>
+                <a href="#" class="text-decoration-none">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" style="background-color: #45818e;" height="20"
+                            width="20"
+                            viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" />
+                        </svg>
+                        <strong class="headings">Admin</strong>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
         </div>
-        <div class="nav-wrap d-flex">
-            <div class="svg py-1 px-1 " style=" background-color: #45818e;"> <svg xmlns="http://www.w3.org/2000/svg"
-                    height="16" width="14"
-                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
-                </svg></div>
-            <h5 class="admin   px-1" style=" color: #45818e;">Admin</h5>
-            <select class="select" style="border: none;">
-                <option selected></option>
-                <option value="">Password</option>
-                <option value="">Logout</option>
-            </select>
-        </div>
-    </div>
+    </nav>
     <div class="padding py-5 px-5 bg-secondary bg-opacity-25">
         <div class="button">
             <button type="button" class=" btn border-0 btn-square px-5 py-3 mb-3"
@@ -247,33 +264,36 @@
                     </tbody>
                     <tfoot>
                         <tr class=" bg-light">
-                            <td class=" fs-4 pt-5" style="color: #45818e;" colspan="8">Showing 1 to 10 of 16 entries
+                            <td class=" fs-4 pt-5" style="color: #45818e;" colspan="8">
+                                <div class="dataTables_info" id="DataTables_Table_0_info" role="status"
+                                    aria-live="polite">Showing 1 to 10 of 22 entries
+
+                                </div>
                             </td>
                             <td class="d-flex justify-content-end px-1  pt-5 fs-3 " style=" color: #45818e;"
                                 colspan="8">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-chevron-left mt-2 mx-3" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-                                </svg>
-                                <div class="foot-digit d-flex justify-content-center align-items-center text-light px-1"
-                                    style="background-color:#45818e; height: 40px; width: 40px; ">1</div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-chevron-right mt-2 mx-3" viewBox="0 0 16 16"></svg>
-                                <div class="foot-digit d-flex justify-content-center align-items-center text-light"
-                                    style="background-color:#45818e; height: 40px; width: 40px; ">2</div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-chevron-right mt-2 mx-3" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
-                                </svg>
+
+                                <div class="dataTables_paginate paging_simple_numbers" id="DataTables_Table_0_paginate">
+                                    <a class="paginate_button previous disabled" aria-controls="DataTables_Table_0"
+                                        data-dt-idx="0" tabindex="-1" id="DataTables_Table_0_previous">
+                                        <nav aria-label="Page navigation example">
+                                            <ul class="pagination justify-content-end">
+
+                                                <li class="page-item"><a class="page-link"style="background-color: #45818e;color: white; "  id="DataTables_Table_0"
+                                                        href="../Academy-Managerprojectpage2.html">1</a></li>
+                                                <li class="page-item"><a class="page-link" style="background-color: #45818e;color: white; " id="DataTables_Table_1"
+                                                        href="../Academy-Manager/projectpage2.1.html">2</a></li>
+
+
+                                            </ul>
+                                        </nav>
+                                    </a>
+                                </div>
                             </td>
 
                         </tr>
                     </tfoot>
-
                 </table>
-
             </div>
         </table>
     </div>
@@ -281,186 +301,22 @@
 
 
 
-    <div class="main d-flex justify-content-between py-4 ">
-        <div class="nav">
-            <h5 class="" style=" color: #45818e;">Teacher Manager</h5>
-        </div>
-        <div class="nav-wrap d-flex">
-            <div class="svg py-1 px-1 bg-primary bg-opacity-50 "> <svg xmlns="http://www.w3.org/2000/svg" height="16"
-                    width="14"
-                    viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                    <path
-                        d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
-                </svg></div>
-            <h5 class="admin   px-1" style=" color: #45818e;">Admin</h5>
-            <select class="select" style="border: none;">
-                <option selected></option>
-                <option value="">Password</option>
-                <option value="">Logout</option>
-            </select>
-        </div>
-    </div>
-    <div class="pad padding py-5 px-5 bg-secondary bg-opacity-25">
-        <div class="button">
-            <button type="button" class=" btn border-0 btn-square  px-5 py-3 mb-3"
-                style=" background-color: #45818e;">+Add
-                Extra
-                Class</button>
-        </div>
-        <table class="table table-borderless col-12">
-            <thead>
-                <tr role="row ">
-                    <td class="" style="color: #45818e;">
-                        <label class="fs-5 px-3  pb-4 " style=" color: #45818e;" colspan="7">Show
-                            <select class="px-3 mx-2">
-                                <option value="10">10</option>
-                                <option value="25">25</option>
-                                <option value="50">50</option>
-                                <option value="100">100</option>
-                                <option value="-1">All</option>
-                            </select> Entries</label>
-                    </td>
 
-                    <td class="" style="color: #45818e;">
-                        <label class="d-flex justify-content-end pb-4 pt-4 py-5">Search:
-                            <input type="search" class="">
-                        </label>
-                    </td>
-                </tr>
-            </thead>
-            <div class="table-responsive">
-                <table class="col-12">
-                    <thead>
-                        <tr role="row" class="  py-3" style=" background-color: #45818e;">
-                            <th class="sorting_asc py-3" rowspan="1" colspan="1" style="width: 40px;" aria-label="">
-                                <input type="checkbox" class="checkAllAttendance">
-                            </th>
-                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 13px;" aria-label="#">#
-                            </th>
-                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 66px;" aria-label="Name">
-                                Name
-                            </th>
-                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 400px;"
-                                aria-label="Email">
-                                Email</th>
-                            <th class="sorting_disabled col-4" rowspan="1" colspan="1" style="width: 92px;"
-                                aria-label="Education">Education</th>
-                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 53px;"
-                                aria-label="Gender">
-                                Gender</th>
-                            <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 104px;"
-                                aria-label="Batches">
-                                Batches</th>
 
-                        </tr>
-                    </thead>
-                    <tbody class="bg-light">
-                        <tr role="row">
-                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
-                            <td class="" style="color: #45818e;">11</td>
-                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
-                                    style="height: 40px; width: 40px;">
-                                Njjfnjgnf Njjfnjgnf
-                            </td>
-                            <td class="" style="color: #45818e;">sddfsdf@jnhfhue.in</td>
-                            <td class="" style="color: #45818e;"></td>
-                            <td class="" style="color: #45818e;">male</td>
-                            <td class="" style="color: #45818e;">Nmjkkj, ICC 6th Evening Batch 6-7pm</td>
 
-                        </tr>
-                        <tr role="row">
-                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
-                            <td class="" style="color: #45818e;">12</td>
-                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
-                                    style="height: 40px; width: 40px;">
-                                Hello Hello
-                            </td>
-                            <td class="" style="color: #45818e;">abc@gmail.com</td>
-                            <td class="" style="color: #45818e;">mji</td>
-                            <td class="" style="color: #45818e;">male</td>
-                            <td class="" style="color: #45818e;">Morning New</td>
 
-                        </tr>
-                        <tr role="row">
-                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
-                            <td class="" style="color: #45818e;">13</td>
-                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
-                                    style="height: 40px; width: 40px;">
-                                Sunny Sunny
-                            </td>
-                            <td class="" style="color: #45818e;">experthometuition730@gmail.com</td>
-                            <td class="" style="color: #45818e;"></td>
-                            <td class="" style="color: #45818e;">male</td>
-                            <td class="" style="color: #45818e;"></td>
 
-                        </tr>
-                        <tr role="row">
-                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
-                            <td class="" style="color: #45818e;">14</td>
-                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
-                                    style="height: 40px; width: 40px;">
-                                Tushar Tushar
-                            </td>
-                            <td class="" style="color: #45818e;">
-                                tushar@gmail.com</td>
-                            <td class="" style="color: #45818e;">mca</td>
-                            <td class="" style="color: #45818e;">male</td>
-                            <td class="" style="color: #45818e;">8pm-9pm, Nmjkkj</td>
 
-                        </tr>
-                        <tr role="row">
-                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
-                            <td class="" style="color: #45818e;">15</td>
-                            <td class="" style="color: #45818e;"><img src="" alt="" class="img-fluid"
-                                    style="height: 40px; width: 40px;">
-                                Free Free
-                            </td>
-                            <td class="" style="color: #45818e;">
-                                free2@free.com</td>
-                            <td class="" style="color: #45818e;">yy</td>
-                            <td class="" style="color: #45818e;">male</td>
-                            <td class="" style="color: #45818e;">Morning, Online Physics By Kamlesh Bhai</td>
 
-                        </tr>
-                        <tr role="row">
-                            <td class="" style="color: #45818e;"><input type="checkbox" class="checkAllAttendance"></td>
-                            <td class="" style="color: #45818e;">15</td>
-                            <td class="" style="color: #45818e;"><img src="images/alexa.jpg" alt="" class="img-fluid"
-                                    style="height: 40px; width: 40px;">
-                                Alexa
-                            </td>
-                            <td class="" style="color: #45818e;"> alexa@eacademy.com</td>
-                            <td class="" style="color: #45818e;">mba</td>
-                            <td class="" style="color: #45818e;">male</td>
-                            <td class="" style="color: #45818e;">Morning, ENGLISH SPEAKING, Test Class, Batch 1 (Age 6-)
-                            </td>
 
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr class=" bg-light">
-                            <td class=" fs-4 pt-5" style=" color: #45818e;" colspan="6">Showing 11 to 16 of 16 entries
-                            </td>
-                            <td class="d-flex justify-content-end px-1 pt-5 fs-3" style=" color: #45818e;" colspan="6">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-chevron-left mt-2 mx-3" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
-                                </svg>
-                                <div class="foot-digit d-flex justify-content-center align-items-center text-light"
-                                    style="background-color:#45818e; height: 40px; width: 40px; ">2</div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-chevron-right mt-2 mx-3" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708" />
-                                </svg>
-                            </td>
 
-                        </tr>
-                    </tfoot>
-                </table>
-            </div>
-    </div>
+
+
+
+
+
+
+
 
 
 
