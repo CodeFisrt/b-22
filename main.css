@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(246, 209, 209, 0);
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+
+    color: #45818e;
+   
+}
+.navbar-brand{
+    color: #45818e;
+}
+.button-1{
+    color: #45818e;
+}
+.container-1{
+    margin-top: 50px;
+}
+.container-3{
+    margin-top: 50px;
+    /* background-color: #45818e; */
+}
+
+.container-4{
+    background-color: #45818e;
+    margin-top: 50px;
+}
+.text-col{
+    color: #45818e;
+}
+.container-5{
+    margin-top: 40px;
+}
+/* .b-color{
+    background-color: #45818e;
+} */
+
+.container-fluid{
+    background-color: #45818e;
+}
