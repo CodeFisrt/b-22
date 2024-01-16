@@ -1,0 +1,129 @@
+
+.dashboard-name{
+    font-size: 14px;
+}
+
+.admin-info{
+    flex-wrap: wrap;
+    color: var(--Primary-Color);
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+.sect-2-info{
+    padding: 30px 30px 6px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+.card-body{
+    padding-right: 20px;
+    width: calc(100% - 70px);
+    color:#45808d;
+    padding-left: 20px;
+
+}
+.section-2{
+    background-color:  #f5f5f5;
+}
+.card-icon{
+    background-color: #fff6e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #45808d;
+    font-size: 40px;
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    
+    
+}
+.card{
+    position: relative;
+}
+.card-body .p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-transform: capitalize;
+    padding-left: 0;
+     font-family:'Poppins' sans-serif;
+}
+.card-p ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #45808d;
+}
+/* .e-academy{
+    color: var(--Primary-Color);
+} */
+.offcanvas-header{
+padding: 15px 15px 15px 25px;
+background-color: #57808b;
+text-align: left;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    /* justify-content: left; */
+    flex-wrap: wrap;
+}
+.menu-list{
+    text-align: left;
+    color: #45808d;
+    padding: 16px 15px 16px 30px;
+    font-family:'Poppins' sans-serif;
+    font-weight: 400;
+}
+
+.admin-menu a{
+    color: #45808d;
+    text-decoration: none;
+    display: block;
+    padding: 0px 0;    
+}
+.input-btn{
+height: 40px;
+    line-height: 40px;
+    padding: 0 40px;
+    font-size: 12px;
+    min-width: 130px;
+    background-color: #45818E;
+    color: #fff6e7;
+}
+.custom-select{
+    float: left;
+    width: 35%;
+    color: #999999;
+    
+}
+.container{
+    margin: 30px;
+}
+.section-4 h4{
+    padding: 30px 40px;
+   font-size: 18px;
+   color: #45808d;
+   
+}
+
+.section-4 .card h6{
+    color:  #45818E;
+    font-family:'Poppins' sans-serif;
+    font-size: 32px;
+
+}
+.section-2 .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+
