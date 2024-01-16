@@ -54,140 +54,210 @@
                         </div>
                     </div>
                 </li>
-
-
             </ul>
-
         </nav>
-        <button type="button" class="btn btn-white btn-btn"> + ADD IMAGE / VIDEO</button>
+        <!-- <button type="button" class="btn btn-white btn-btn"> + ADD IMAGE / VIDEO</button> -->
     </div>
-    <div class="container">
-        <!-- section-2 -->
-        <div class="selctionwrap mx-5 p-3">
-            <span class="show">Show</span>
-            <select name="" id="" class="mx-4 selecter">
-                <option value="">10</option>
-                <option value="">25</option>
-                <option value="">50</option>
-                <option value="">100</option>
-                <option value="">All</option>
-            </select>
-            <span class="show">Entries</span>
-            <label for="" class="serch">Search:</label>
-            <input type="search" name="" id="">
+    <button type="button" class="btn btn-white btn-btn" data-bs-toggle="modal" data-bs-target="#myModal">
+        + ADD IMAGE / VIDEO
+    </button>
+    </div>
+
+    <!-- The Modal -->
+    <!-- <div class="card modal-card"> -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header p-3">
+                    <button type="button" class="btn-close closemodal" data-bs-dismiss="modal"></button>
+                </div>
+                <h4 class="modal-title">ADD IMAGE / VIDEO</h4>
+                <!-- Modal body -->
+                <div class="modal-body p-3">
+                    <label for="" class="p-1">Title*</label><br>
+                    <input type="text" name="Title" placeholder="Title" class="p-1"><br><br>
+                    <label for="" class="p-1">Type*</label><br>
+                    <select name="" id="">
+                        <option value="">Images</option>
+                        <option value="">video</option>
+                </div>
+                <button type="button" class="btn btn-white btn-btn" data-bs-toggle="modal" data-bs-target="#myModal">
+                    video
+                </button>
+            </div>
+
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <!-- Modal Header -->
+                        <div class="modal-header p-3">
+                            <button type="button" class="btn-close closemodal" data-bs-dismiss="modal"></button>
+                        </div>
+                        <h4 class="modal-title">ADD IMAGE / VIDEO</h4>
+                        <!-- Modal body -->
+                        <div class="modal-body p-3">
+                            <label for="" class="p-1">Title*</label><br>
+                            <input type="text" name="Title" placeholder="Title" class="p-1"><br><br>
+                            <label for="" class="p-1">Type*</label><br>
+                            <select name="" id="">
+                                <option value="">Images</option>
+                                <option value="">video</option>
+                            </select><br><br>
+                            <label for="" class="p-1">Image</label><br>
+                            <input type="file" name="image" placeholder="Select your file" class="p-1"><br>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn addfooter" data-bs-dismiss="modal">Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </select><br><br>
+            <label for="" class="p-1">Image</label><br>
+            <input type="file" name="image" placeholder="Select your file" class="p-1"><br>
         </div>
-        <!-- section-3 -->
-        <table border="" class="m-5 px-5">
-            <tr class="tablehead">
-                <th class="p-3 text"><input type="checkbox"></th>
-                <th class="p-3">#</th>"
-                <th class="p-3">Title</th>
-                <th class="p-3">Type</th>
-                <th class="p-3">Status</th>
-                <th class="p-3">Action</th>
-                <th class="p-3">Added By</th>
-            </tr>
-            <!-- row-1 -->
-            <tr>
-                <td class="p-3 text"><input type="checkbox"></td>
-                <td class="p-3 text">1</td>
-                <td class="p-3 text">Somu1</td>
-                <td class="pl-5 text">Image</td>
-                <td class="p-3"><a href=""><button>ACTIV</button></a></td>
-                <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
-                </td>
-                <td class="p-3 text">Admin (Super Admin)</td>
-            </tr>
-            <!-- row-2 -->
-            <tr>
-                <td class="p-3 text"><input type="checkbox"></td>
-                <td class="p-3 text">2</td>
-                <td class="p-3 text">111uhj</td>
-                <td class="pl-5 text">Image</td>
-                <td class="p-3"><a href=""><button>INACTIV</button></a></td>
-                <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
-                </td>
-                <td class="p-3 text">Admin (Super Admin)</td>
-            </tr>
-            <!-- row-3 -->
-            <tr>
-                <td class="p-3 text"><input type="checkbox"></td>
-                <td class="p-3 text">3</td>
-                <td class="p-3 text">Test</td>
-                <td class="pl-5 text">Video</td>
-                <td class="p-3"><a href=""><button>INACTIV</button></a></td>
-                <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
-                </td>
-                <td class="p-3 text">Admin (Super Admin)</td>
-            </tr>
-            <!-- row-4 -->
-            <tr>
-                <td class="p-3 text"><input type="checkbox"></td>
-                <td class="p-3 text">4</td>
-                <td class="p-3 text">2D DRAWINGS</td>
-                <td class="pl-5 text" width="400px">Image</td>
-                <td class="p-3"><a href=""><button>ACTIV</button></a></td>
-                <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
-                </td>
-                <td class="p-3 text">Admin (Super Admin)</td>
-            </tr>
-            <!-- row-5 -->
-            <tr>
-                <td class="p-3 text"><input type="checkbox"></td>
-                <td class="p-3 text">5</td>
-                <td class="p-3 text">Ddsfsfs</td>
-                <td class="pl-5 text">Image</td>
-                <td class="p-3"><a href=""><button>INACTIV</button></a></td>
-                <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
-                </td>
-                <td class="p-3 text">Admin (Super Admin)</td>
-            </tr>
-            <!-- row-6 -->
-            <tr>
-                <td class="p-3 text"><input type="checkbox"></td>
-                <td class="p-3 text">6</td>
-                <td class="p-3 text">Dgdghj</td>
-                <td class="pl-5 text">Video</td>
-                <td class="p-3"><a href=""><button>ACTIV</button></a></td>
-                <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
-                </td>
-                <td class="p-3 text">Admin (Super Admin)</td>
-            </tr>
-            <!-- row-7 -->
-            <tr>
-                <td class="p-3 text"><input type="checkbox"></td>
-                <td class="p-3 text">7</td>
-                <td class="p-3 text">Lpsum</td>
-                <td class="pl-5 text">Image</td>
-                <td class="p-3"><a href=""><button>INACTIV</button></a></td>
-                <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
-                    <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
-                </td>
-                <td class="p-3 text">Admin (Super Admin)</td>
-            </tr>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn addfooter" data-bs-dismiss="modal">Add</button>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="card">
+        <div class="container">
+            <!-- section-2 -->
+            <div class="selctionwrap mx-5 p-3">
+                <span class="show">Show</span>
+                <select name="" id="" class="mx-4 selecter">
+                    <option value="">10</option>
+                    <option value="">25</option>
+                    <option value="">50</option>
+                    <option value="">100</option>
+                    <option value="">All</option>
+                </select>
+                <span class="show">Entries</span>
+                <label for="" class="serch">Search:</label>
+                <input type="search" name="" id="">
+            </div>
+            <!-- section-3 -->
+            <table border="" class="m-5 px-5">
+                <tr class="tablehead">
+                    <th class="p-3 text"><input type="checkbox"></th>
+                    <th class="p-3">#</th>"
+                    <th class="p-3">Title</th>
+                    <th class="p-3">Type</th>
+                    <th class="p-3">Status</th>
+                    <th class="p-3">Action</th>
+                    <th class="p-3">Added By</th>
+                </tr>
+                <!-- row-1 -->
+                <tr>
+                    <td class="p-3 text"><input type="checkbox"></td>
+                    <td class="p-3 text">1</td>
+                    <td class="p-3 text">Somu1</td>
+                    <td class="pl-5 text">Image</td>
+                    <td class="p-3"><a href=""><button>ACTIV</button></a></td>
+                    <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
+                    </td>
+                    <td class="p-3 text">Admin (Super Admin)</td>
+                </tr>
+                <!-- row-2 -->
+                <tr>
+                    <td class="p-3 text"><input type="checkbox"></td>
+                    <td class="p-3 text">2</td>
+                    <td class="p-3 text">111uhj</td>
+                    <td class="pl-5 text">Image</td>
+                    <td class="p-3"><a href=""><button>INACTIV</button></a></td>
+                    <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
+                    </td>
+                    <td class="p-3 text">Admin (Super Admin)</td>
+                </tr>
+                <!-- row-3 -->
+                <tr>
+                    <td class="p-3 text"><input type="checkbox"></td>
+                    <td class="p-3 text">3</td>
+                    <td class="p-3 text">Test</td>
+                    <td class="pl-5 text">Video</td>
+                    <td class="p-3"><a href=""><button>INACTIV</button></a></td>
+                    <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
+                    </td>
+                    <td class="p-3 text">Admin (Super Admin)</td>
+                </tr>
+                <!-- row-4 -->
+                <tr>
+                    <td class="p-3 text"><input type="checkbox"></td>
+                    <td class="p-3 text">4</td>
+                    <td class="p-3 text">2D DRAWINGS</td>
+                    <td class="pl-5 text" width="400px">Image</td>
+                    <td class="p-3"><a href=""><button>ACTIV</button></a></td>
+                    <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
+                    </td>
+                    <td class="p-3 text">Admin (Super Admin)</td>
+                </tr>
+                <!-- row-5 -->
+                <tr>
+                    <td class="p-3 text"><input type="checkbox"></td>
+                    <td class="p-3 text">5</td>
+                    <td class="p-3 text">Ddsfsfs</td>
+                    <td class="pl-5 text">Image</td>
+                    <td class="p-3"><a href=""><button>INACTIV</button></a></td>
+                    <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
+                    </td>
+                    <td class="p-3 text">Admin (Super Admin)</td>
+                </tr>
+                <!-- row-6 -->
+                <tr>
+                    <td class="p-3 text"><input type="checkbox"></td>
+                    <td class="p-3 text">6</td>
+                    <td class="p-3 text">Dgdghj</td>
+                    <td class="pl-5 text">Video</td>
+                    <td class="p-3"><a href=""><button>ACTIV</button></a></td>
+                    <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
+                    </td>
+                    <td class="p-3 text">Admin (Super Admin)</td>
+                </tr>
+                <!-- row-7 -->
+                <tr>
+                    <td class="p-3 text"><input type="checkbox"></td>
+                    <td class="p-3 text">7</td>
+                    <td class="p-3 text">Lpsum</td>
+                    <td class="pl-5 text">Image</td>
+                    <td class="p-3"><a href=""><button>INACTIV</button></a></td>
+                    <td class="p-3"><a href=""><button><i class="fa-solid fa-pen-to-square"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-eye"></i></button></a>
+                        <a href=""><button><i class="fa-solid fa-trash"></i></button></a>
+                    </td>
+                    <td class="p-3 text">Admin (Super Admin)</td>
+                </tr>
 
 
-        </table>
-        <!-- main wrap end -->
+            </table>
+            <!-- main wrap end -->
+        </div>
     </div>
 
 
 
 
-    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

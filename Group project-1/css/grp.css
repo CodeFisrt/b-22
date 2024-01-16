@@ -49,6 +49,26 @@ body {
     color: aliceblue;
     margin: 50px 120px;
 }
+.modal-card{
+    max-width: 800px;
+    margin: auto;
+    background: var(--Secondary-Color);
+    width: 100%;
+    padding: 37px 40px 26px;
+    border: none;
+    position: relative;
+    border-radius: 0px;
+    overflow: hidden;
+    max-height: 657px;
+    overflow-y: auto;
+}
+.closemodal{
+    background-color: #3b8697;
+}
+.addfooter{
+    background-color: #3b8697;
+    
+}
 /* section-2 */
 .show{
     font-size: 20px;
