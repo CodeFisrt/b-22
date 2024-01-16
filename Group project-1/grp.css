@@ -1,0 +1,75 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar button {
+    border: none;
+}
+
+.gallery {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #45818e;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.btu-profile {
+    color: #45818e;
+}
+
+.fa-user {
+    font-size: 30px;
+    background-color: #3b8697;
+    color: aliceblue;
+}
+
+.end-naw {
+    margin-left: 850%;
+    color: #45818e;
+}
+
+.nav-icon {
+    margin-left: 20px;
+    font-size: 30px;
+    color: #45818e;
+}
+.profile{
+    background-color: white;
+}
+.admin{
+    color: #45818e;
+}
+.dropdown-menu{
+    color: #a0da0d;
+}
+
+.btn-btn{
+    background-color: #3b8697;
+    color: aliceblue;
+    margin: 50px 120px;
+}
+/* section-2 */
+.show{
+    font-size: 20px;
+    color: #45818e;
+}
+.selecter{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    
+}
+.serch{
+    margin-left:644px; 
+    font-size: 20px;
+    color: #45818e;
+}
+/* section-3 */
+.tablehead{
+    background-color: #3b8697;
+    color: aliceblue;
+}
+.text{
+    color: #45818e;
+}
