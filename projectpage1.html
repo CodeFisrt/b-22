@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+
+
+    <nav class="navbar  bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand">
+                <div class="d-flex">
+                    <div class="back">
+                        <div class="p-1">
+                            <div class="bar1 mb-1"></div>
+                            <div class="bar1 bar2"></div>
+                            <div class="bar1 mt-1"></div>
+                        </div>
+                    </div>
+                    <h5 class="headings ms-5 mt-1">Teacher Manager</h5>
+                </div>
+            </a>
+            <div>
+                <a href="#" class="text-decoration-none">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" style="background-color: #45818e;" height="20"
+                            width="20"
+                            viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" />
+                        </svg>
+                        <strong class="headings" style="color: #45818e;">Admin</strong>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708" />
+                        </svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="padding py-5 px-5 bg-secondary bg-opacity-25 ">
+        <div class="table-responsive">
+            <div class="pad-wrap bg-light border border-3 mb-3 py-4">
+                <div class="container py-3 px-5 mx-5 bg-light ">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 res-bottom-20">
+                            <select class="form-select ">
+                                <option selected>Select Teacher</option>
+                                <option value="1">vijay</option>
+                                <option value="2">اشرف البيطار</option>
+                                <option value="3">rr</option>
+                                <option value="4">testw</option>
+                                <option value="5">testwo</option>
+                                <option value="6">ross</option>
+                                <option value="7">Bala </option>
+                                <option value="8">مستر احمد صابر</option>
+                                <option value="9">WASIM RAJA</option>
+                                <option value="10">tienit</option>
+                                <option value="11">njjfnjgnf</option>
+                                <option value="12">hello</option>
+                                <option value="13">Sunny </option>
+                                <option value="14">tushar</option>
+                                <option value="15">free</option>
+                                <option value="16">alexa</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 res-bottom-20">
+                            <select class="form-select">
+                                <option selected>select status</option>
+                                <option value="1">complete</option>
+                                <option value="2">incomplete</option>
+
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 res-bottom-20">
+                            <button type="button" class="btn-square py-2 px-5"
+                                style=" background-color: #45818e;">Search</button>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 res-bottom-20 px-3 ">
+                            <button type="button" class="btn-square px-4 py-2 mx-5"
+                                style=" background-color: #45818e;">+Add
+                                Extra
+                                Class</button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class=" table-borderless col-12 mt-3 ">
+                <thead>
+                    <tr role="row ">
+                        <td class="" style="color: #45818e; background-color:white">
+                            <label class="fs-5 px-3  pb-4 " style=" color: #45818e;" colspan="7">Show
+                                <select class="px-3 mx-2">
+                                    <option value="10">10</option>
+                                    <option value="25">25</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                    <option value="-1">All</option>
+                                </select> Entries</label>
+                        </td>
+
+                        <td class="" style="color: #45818e; background-color:white">
+                            <label class="d-flex justify-content-end pb-4 pt-4">Search:
+                                <input type="search" class="">
+                            </label>
+                        </td>
+                    </tr>
+                </thead>
+
+                <div class="table-responsive">
+                    <table class="col-12">
+                        <thead>
+                            <tr role="row" class="  py-4" style=" background-color: #45818e;">
+                                <th class="sorting_asc" rowspan="1" colspan="1" style="width: 46px;" aria-label="">
+                                    <input type="checkbox" class="checkAllAttendance">
+                                </th>
+                                <th class="sorting_disabled py-3" rowspan="1" colspan="1" style="width: 15px;"
+                                    aria-label="#">#</th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 83px;"
+                                    aria-label="Date">
+                                    Date
+                                </th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 427px;"
+                                    aria-label="Time">
+                                    Time</th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 427px;"
+                                    aria-label="Description">Description</th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 69px;"
+                                    aria-label="Teacher">
+                                    Teacher</th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 0px; display: none;"
+                                    aria-label="Status">Status</th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 0px; display: none;"
+                                    aria-label="Complete Date Time">Complete Date Time</th>
+                                <th class="sorting_disabled" rowspan="1" colspan="1" style="width: 0px; display: none;"
+                                    aria-label="Action">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-light">
+                            <tr role="row" class="odd  " style=" color: #45818e;">
+                                <td class="sorting_1 dtr-control">
+                                    <input type="checkbox" class="checkOneRow" value="5">
+                                </td>
+                                <td class="py-3">1</td>
+                                <td>06-12-2023</td>
+                                <td>05:30 PM - 06:00 PM</td>
+                                <td>
+                                    <p class="descParaCls">cdcsdcsdddscdsc</p>
+                                </td>
+                                <td>free</td>
+                                <td style="display: none;">Incomplete</td>
+                                <td style="display: none;"></td>
+                                <td style="display: none;">
+                                    <p class="actions_wrap"><a class="edit_extraclass btn_edit" title="Edit" data-id="5"
+                                            data-teacher="61" data-batch="[&quot;35&quot;]"><i
+                                                class="fa fa-edit"></i></a>
+                                        <a class="deleteData btn_delete" title="Delete" data-id="5"
+                                            data-table="extra_classes"><i class="fa fa-trash"></i></a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr role="row" class="even " style=" color: #45818e;">
+                                <td class="sorting_1 dtr-control"><input type="checkbox" class="checkOneRow" value="4">
+                                </td>
+                                <td class="py-3">2</td>
+                                <td>15-11-2023</td>
+                                <td>12:00 AM - 01:00 AM</td>
+                                <td>
+                                    <p class="descParaCls">شرح</p>
+                                </td>
+                                <td>اشرف البيطار</td>
+                                <td style="display: none;">Incomplete</td>
+                                <td style="display: none;"></td>
+                                <td style="display: none;">
+                                    <p class="actions_wrap"><a class="edit_extraclass btn_edit" title="Edit" data-id="4"
+                                            data-teacher="79" data-batch="[&quot;46&quot;,&quot;35&quot;]"><i
+                                                class="fa fa-edit"></i></a>
+                                        <a class="deleteData btn_delete" title="Delete" data-id="4"
+                                            data-table="extra_classes"><i class="fa fa-trash"></i></a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr role="row" class="odd " style=" color: #45818e;">
+                                <td class="sorting_1 dtr-control"><input type="checkbox" class="checkOneRow" value="3">
+                                </td>
+                                <td class="py-3">3</td>
+                                <td>06-11-2023</td>
+                                <td>12:00 AM - 11:00 PM</td>
+                                <td>
+                                    <p class="descParaCls">jj</p>
+                                </td>
+                                <td>rr</td>
+                                <td style="display: none;">Complete</td>
+                                <td style="display: none;">06-11-2023 02:59 PM</td>
+                                <td style="display: none;">
+                                    <p class="actions_wrap"><a class="edit_extraclass btn_edit" title="Edit" data-id="3"
+                                            data-teacher="78" data-batch="[&quot;48&quot;]"><i
+                                                class="fa fa-edit"></i></a>
+                                        <a class="deleteData btn_delete" title="Delete" data-id="3"
+                                            data-table="extra_classes"><i class="fa fa-trash"></i></a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr role="row" class="even " style="color: #45818e;">
+                                <td class="sorting_1 dtr-control"><input type="checkbox" class="checkOneRow" value="2">
+                                </td>
+                                <td class="py-2">4</td>
+                                <td>06-08-2023</td>
+                                <td>10:20 AM - 11:05 PM</td>
+                                <td>
+                                    <p class="descParaCls">po</p>
+                                </td>
+                                <td>alexa</td>
+                                <td style="display: none;">Complete</td>
+                                <td style="display: none;">06-08-2023 01:24 PM</td>
+                                <td style="display: none;">
+                                    <p class="actions_wrap"><a class="edit_extraclass btn_edit" title="Edit" data-id="2"
+                                            data-teacher="13" data-batch="[&quot;35&quot;]"><i
+                                                class="fa fa-edit"></i></a>
+                                        <a class="deleteData btn_delete" title="Delete" data-id="2"
+                                            data-table="extra_classes"><i class="fa fa-trash"></i></a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr role="row" class="odd " style=" color: #45818e;">
+                                <td class="sorting_1 dtr-control"><input type="checkbox" class="checkOneRow" value="1">
+                                </td>
+                                <td class="py-3">5</td>
+                                <td>20-07-2023</td>
+                                <td>09:00 PM - 10:00 PM</td>
+                                <td>
+                                    <p class="descParaCls">bekaar class</p>
+                                </td>
+                                <td>alexa</td>
+                                <td style="display: none;">Incomplete</td>
+                                <td style="display: none;"></td>
+                                <td style="display: none;">
+                                    <p class="actions_wrap"><a class="edit_extraclass btn_edit" title="Edit" data-id="1"
+                                            data-teacher="13" data-batch="[&quot;38&quot;]"><i
+                                                class="fa fa-edit"></i></a>
+                                        <a class="deleteData btn_delete" title="Delete" data-id="1"
+                                            data-table="extra_classes"><i class="fa fa-trash"></i></a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="bg-light">
+                            <tr>
+                                <td class=" fs-4 pt-5" style=" color: #45818e;" colspan="5">Showing 1 to 5 of 5 entries
+                                </td>
+                                <td class="d-flex justify-content- pt-5" colspan="5">
+                                    <div class="dataTables_paginate paging_simple_numbers"
+                                        id="DataTables_Table_0_paginate">
+                                        <a class="paginate_button previous disabled" aria-controls="DataTables_Table_0"
+                                            data-dt-idx="0" tabindex="-1" id="DataTables_Table_0_previous">
+                                            <nav aria-label="Page navigation example">
+                                                <ul class="pagination justify-content-end">
+
+                                                    <li class="page-item"><a class="page-link" id="DataTables_Table_0"
+                                                            href="../Academy-Managerprojectpage2.html">1</a></li>
+                                                    <li class="page-item"><a class="page-link" id="DataTables_Table_1"
+                                                            href="../Academy-Manager/projectpage2.1.html">2</a></li>
+
+
+                                                </ul>
+                                            </nav>
+                                        </a>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </table>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
