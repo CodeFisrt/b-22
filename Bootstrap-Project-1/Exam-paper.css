@@ -1,0 +1,39 @@
+.create-paper{
+    color: #45818e;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    }
+    .filter-by-subject{
+        color: #45818e;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .search{
+    border: 1px solid #45818e;
+    text-align: center;
+    background-color: #45818e;
+    color: antiquewhite;
+    }
+    .show{
+       font-size: 18px;
+        color:#45818e;
+    }
+    .d-flex {
+        font-size: 18px;
+        color:#45818e ;
+    }
+    .backround1{
+        background-color: #45818e;
+        color: aliceblue;
+        /* text-align: center; */
+        
+    
+        height: 35px;
+    }
+    .btn{
+    
+        background-color: #45818e;
+    }
