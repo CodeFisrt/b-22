@@ -45,14 +45,15 @@ body {
 }
 
 .loginbtn {
-    border: none;
-    width: 25%;
-    height: 50px;
-    font-weight: 700;
     font-size: medium;
-    display: inline-block;
-    position: relative;
-    background-color: #ffffff;
+    font-weight: 700;
+    background-color: #45818e;
+    color: black
+}
+
+.btn:hover {
+    color: black;
+    background-color: white
 }
 
 
@@ -72,7 +73,7 @@ body {
 /* fORGOT PASSWORD PAGE */
 
 .linkbtn {
-    width: 27%;
+    width: 29%;
     padding: 11px;
 }
 
