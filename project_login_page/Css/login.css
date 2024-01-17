@@ -1,0 +1,84 @@
+/* LOGIN PAGE */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../Asset/login1.png);
+    background-color: #45818e;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-light {
+    font-family: 'Montserrat', 'sans-serif';
+    font-weight: 700;
+}
+
+.form-wrap {
+    line-height: 70px;
+    background-color: black;
+    width: 55%;
+    margin: 30px;
+    padding: 20px 30px 10px;
+    border-radius: 5px;
+}
+
+.form-field-one {
+    height: 50px;
+}
+
+.form-check-input {
+    margin-top: 28px;
+}
+
+.password-text-color {
+    font-weight: bold;
+    font-size: medium;
+    color: #45818e;
+}
+
+.text-color {
+    color: gray;
+}
+
+.loginbtn {
+    font-size: medium;
+    font-weight: 700;
+    background-color: #45818e;
+    color: black
+}
+
+.btn:hover {
+    color: black;
+    background-color: white
+}
+
+
+/* REGISTER PAGE */
+
+.form-wrap-one {
+    line-height: 30px;
+}
+
+.form-field {
+    line-height: 40px;
+    height: 45px;
+    margin-top: 30px;
+}
+
+
+/* fORGOT PASSWORD PAGE */
+
+.linkbtn {
+    width: 29%;
+    padding: 11px;
+}
+
+.form-wrap-third {
+    height: 50%;
+    line-height: 40%;
+    margin-top: 11%;
+    padding: 40px;
+}
