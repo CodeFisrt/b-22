@@ -1,0 +1,58 @@
+ body{
+   font-family: 'Poppins', sans-serif;
+ }
+.form-title{
+   color:#888888 ;
+  margin: 0px 0px 30px;
+  font-size: 18px;
+    font-weight: 500;
+}
+.name-tag{
+   font-size: 18px;
+}
+ .form-tags{ 
+   height: 45px;
+   border: 1px solid #e7e7e9;
+   line-height: 30px; 
+   border-radius: 0px;
+   display: flex;
+   width: 100%;
+   font-size: 14px;
+   vertical-align: middle;
+   color: #888888;   
+ }
+ .form-controls{
+color: #888888;
+ }
+.module-class{
+   color: white;
+   background-color:#45818e;
+   margin: 2px;
+   padding: 8px;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-between;
+}
+.module-access{
+   color: #888888;
+   font-size: 20px;
+}
+.login-text{
+   color: #888888;
+   font-size: 20px;
+}
+.login-btn{
+   color: #888888;
+ font-size: 18px;
+ font-weight: 500;
+ justify-content: space-between;
+}
+.button-tag{
+   background-color: #45818e;
+   color: white;
+   font-size: 14px;
+   min-width: 130px;
+}
+.button-text{
+   color: white;
+}
