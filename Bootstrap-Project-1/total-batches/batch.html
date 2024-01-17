@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link rel="stylesheet" href="student.css">
+</head>
+<body>
+    
+    <div class="section-1">
+
+        <nav class="navbar justify-content-end  ">
+            <div class="container-fluid ">
+            <a class="navbar-brand" data-bs-toggle="offcanvas"  href="#offcanvasExample" aria-controls="offcanvasExample">
+              <img src="/Bootstrap-Project-1/assets/bars-solid.svg" width="30" height="30" class="dashboard-name align-top" alt="">
+             &nbsp;&nbsp; Batch Manager
+            </a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <a  href="#">
+                    <img src="/Bootstrap-Project-1/assets/toggle-header-img.png" class="logoRelativeCls main_logo" width="100%"  alt="Logo">
+                    </a>     
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+               
+                
+                <div class="offcanvas-body">
+                   <div class="admin-menu">
+                    <ul>
+                        <li class="menu-list Active  bg-light list-unstyled">
+                            <a href="/Bootstrap-Project-1/dashboard/dashboard.html">
+                                <img src="/Bootstrap-Project-1/assets/dashboard-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Dashboard</span>
+                            </a>
+                        </li>
+                        
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/user-manager-img.jpg" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">User Manager</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#" data-toggle="collapse" data-target="#submenu2">
+                                <img src="/Bootstrap-Project-1/assets/academics-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Academics</span>
+                                <div id="submenu2" class="collapse">
+                                    <a class="menu-list ml-3" href="#">Category Manager </a>
+                                    <a class="menu-list ml-3" href="#">Sub-Category Manager</a>
+                                    <a class="menu-list ml-3" href="#">Batch Manager</a>
+                                    <a class="menu-list ml-3" href="#">Notice Manager</a>
+                                    <a class="menu-list ml-3" href="#">Subject Manager</a>
+                                    <a class="menu-list ml-3" href="#">Question Manager</a>
+                                    <a class="menu-list ml-3" href="#">Upcoming Exams Manager</a>
+                                    <a class="menu-list ml-3" href="#">Live Class</a>
+                                    <a class="menu-list ml-3" href="#">Jitsi Meets</a>
+                                    <a class="menu-list ml-3" href="#">Live Class History</a>
+                                  </div> 
+                               
+                            </a>
+                        </li>
+                        
+                        <li class="menu-list  list-unstyled">
+                            <a href="#" data-toggle="collapse" data-target="#submenu3">
+                                <img src="/Bootstrap-Project-1/assets/student-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Student Manager</span>
+                                <div id="submenu3" class="collapse">
+                                    <a class="menu-list ml-3" href="#">Add Student</a>
+                                    <a class="menu-list ml-3" href="#">Manage Students</a>
+                                    <a class="menu-list ml-3" href="#">Manage Students Leave</a>
+                                    <a class="menu-list ml-3" href="#">Payment History</a>
+                                  </div> 
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#" data-toggle="collapse" data-target="#submenu4">
+                                <img src="/Bootstrap-Project-1/assets/teacher-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Teacher Manager</span>
+                                <div id="submenu4" class="collapse">
+                                    <a class="menu-list ml-3" href="#">Extra Classes</a>
+                                    <a class="menu-list ml-3" href="#">Manage Teachers</a>
+                                    <a class="menu-list ml-3" href="#">Manage Teachers Leave</a>               
+                                  </div>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#" data-toggle="collapse" data-target="#submenu5">
+                                <img src="/Bootstrap-Project-1/assets/library-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Library Manager</span>
+                                <div id="submenu5" class="collapse">
+                                    <a class="menu-list ml-3" href="#">Books</a>
+                                    <a class="menu-list ml-3" href="#">Notes</a>
+                                    <a class="menu-list ml-3" href="#">Old Papers</a>               
+                                  </div>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#" data-toggle="collapse" data-target="#submenu6">
+                                <img src="/Bootstrap-Project-1/assets/exam-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Exam</span>
+                                <div id="submenu6" class="collapse">
+                                    <a class="menu-list ml-3" href="#">Create Paper</a>
+                                    <a class="menu-list ml-3" href="#">Manage Paper</a>
+                                    <a class="menu-list ml-3" href="#">Practice Result</a>
+                                    <a class="menu-list ml-3" href="#">Mock Test Result</a>               
+                                  </div>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/gallary-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Gallary Manager</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/video-lecture.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Video Lecture Manager</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/douts-img.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Douts Class</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/enquiry.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Enquiry</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/time-zone.jpg" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Set Time Zone</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/site-setting.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Site Setting</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/general-setting.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">General Setting</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/certificate.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Certificate</span>
+                            </a>
+                        </li>
+                        <li class="menu-list  list-unstyled">
+                            <a href="#">
+                                <img src="/Bootstrap-Project-1/assets/certificate.png" alt="admin-menu" height="30" width="30">
+                                <span style="font-size: 16px;">Themes Option</span>
+                            </a>
+                        </li>
+                    </ul>
+                   </div>
+                  
+                </div>
+              </div>
+           
+           
+            <form class="admin-info d-flex mx-3" >
+                <img src="/Bootstrap-Project-1/assets/user_552721.png" width="30" height="30"  alt="">&nbsp;
+                <a class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Admin</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Change Password</a></li>
+                      <li><a class="dropdown-item" href="#">Logout</a></li>
+                    </ul>
+                  <a>
+              </form>
+            </div>
+          </nav>
+        </div>
+
+
+        <div class="section-2">    
+             <div class="student-info bg-light p-4 mx-3 "> 
+              <div class="container-fluid">    
+                <div class="row justify-content-end">
+                    <div class="show-num">
+                        <label>Show &nbsp <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_1_info" aria-controls="DataTables_Table_2"aria-controls="DataTables_Table_1"  class="ten px-2 py-2" fdprocessedid="3r3nfe">
+                          <option value="10">10&nbsp</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option><option value="100">100</option><option value="-1">All</option>
+                          </select> &nbsp Entries<div></label>
+                        </div>
+                       
+                        <!-- <div class="serach-info ">
+                          <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="searchButton">
+                          <div class="serach-info-check">
+                            <button class="btn" type="button" id="searchButton">Search</button>
+                          </div>
+                        </div> -->
+                </div>
+              </div>
+                <!-- <div class="container mt-3">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="dropdown">
+                        <label>Show &nbsp <select name="DataTables_Table_0_length" aria-controls="DataTables_Table_1_info" aria-controls="DataTables_Table_2"aria-controls="DataTables_Table_1"  class="ten px-2 py-2" fdprocessedid="3r3nfe">
+                          <option value="10">10&nbsp</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option><option value="100">100</option><option value="-1">All</option>
+                          </select> &nbsp Entries<div>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="search-addon">
+                        <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button">Search</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> -->
+
+
+                <table class="table table-hover my-4">
+                  <thead class="student-head table-success">
+                    <tr class="py-2 " >
+                      <th scope="col ">#</th>
+                      <th scope="col ">Batch Name</th>
+                      <th scope="col ">Start Date</th>
+                      <th scope="col ">End Date</th>
+                      <th scope="col ">Batch Time</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr >
+                      <th scope="row">1</th>
+                      <td>B-22</td>
+                      <td>10-01-2024</td>
+                      <td>25-05-2024</td>
+                      <td>Morning</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>B-23</td>
+                      <td>15-01-2024</td>
+                      <td>29-05-2024</td>
+                      <td>Afternoon</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>S-12</td>
+                      <td>10-01-2024</td>
+                      <td>29-06-2024</td>
+                      <td>Evening</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>S-13</td>
+                      <td>28-01-2024</td>
+                      <td>10-07-2024</td>
+                      <td>Morning</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>R-21</td>
+                      <td>10-01-2024</td>
+                      <td>10-01-2024</td>
+                      <td>Afternoon</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>R-22</td>
+                      <td>10-01-2024</td>
+                      <td>10-01-2024</td>
+                      <td>Evening</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>B-22</td>
+                      <td>10-01-2024</td>
+                      <td>10-01-2024</td>
+                      <td>Morning</td>
+                    </tr>
+                  </tbody>
+                </table>
+             </div>
+             <nav aria-label="Page navigation-stud">
+              <ul class="pagination justify-content-end">
+                <li class="page-item disabled">
+                  <a class="page-link"><<</a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#">>></a>
+                </li>
+              </ul>
+            </nav>
+           </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
