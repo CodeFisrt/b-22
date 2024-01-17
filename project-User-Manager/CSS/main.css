@@ -1,0 +1,34 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+}
+.header-btn{
+    color: #888888;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-name{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #888888;
+}
+.button-tag{
+    background-color: #45818e;
+    color: white;
+    font-size: 14px;
+    min-width: 130px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.user-btn{
+    color: white;
+}
+
+
