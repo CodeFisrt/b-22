@@ -1,0 +1,63 @@
+
+    
+
+body {
+    padding-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* background: #f7f7fb; */
+    background-color:white;
+    color: rgb(74, 72, 72);
+
+    
+
+}
+.Server{
+    padding-top: 4%;
+}
+
+::after, ::before {
+    
+    box-sizing: border-box;
+}
+
+.button{
+    
+        color: white;
+        background-color: #45818E;
+}
+   
+        body{
+            padding-top: 5%;
+            padding-right: 2%;
+            padding-left: 2%;
+        }
+
+
+        .group1{
+            padding: 1%;
+            padding-top: 3%;
+            
+        }
+        .group2{
+            padding: 1%;
+            
+            
+            
+        }
+        .group3{
+            padding: 1%;
+        }
+        .group4{
+            padding: 1%;
+        }
+        .group5{
+            
+            margin-top: 3%;
+            padding: 2%;   }
+ 
+       
+
+    

@@ -23,5 +23,4 @@ git pull origin main
 
 2] Code commit 
     2.1] stage your change
-    2.2] commit your changes
-3]  
+    2.2] commit your change

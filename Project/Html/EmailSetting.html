@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Css/EmailSetting.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="section-1 pt-5 px-2 py-2">
+
+            <nav class="navbar navbar-light bg-light justify-content-end fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand " href="#">
+                        <i class="fas fa-align-justify"></i>
+                        <img src="../Assets/justify.svg" width="30" height="30" class="dashboard-name align-top" alt="">
+                        &nbsp;&nbsp; Email Setting
+                    </a>
+                    <form class="admin-info d-flex mx-3">
+
+                        <img src="../Assets/person-svgrepo-com.svg" width="30" height="30" alt="">&nbsp;
+                        <a class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                                aria-expanded="false">Admin</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Change Password</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                            <a>
+                    </form>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="container-fluid my-5 py-2  bg-body-tertiary">
+            <section class="content">
+                <div class="content_right sectionHolder edu_siteSetting_wrapper">
+
+                    <div class="Avi_admin_informationdiv edu_main_wrapper">
+                        <form class="Avi_admin form" enctype="multipart/form-data" method="post">
+                            <div class="edu_site_setting_wrap edu_from_wrapper">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 edu_bottom_20">
+                                        <div class="Server">
+                                            <label><b>Server Type</b><sup> <code>*</code></sup></label><br>
+
+                                            <div class=" radio-btn-space mb-3">
+                                                <label>SMTP server</label>
+                                                <input type="radio" checked="" value="1" name="r1" class="# my-3">
+                                                <label>Server Mail Default</label>
+                                                <input type="radio" value="2" name="r1"> <br>
+
+                                                <!-- <label><b>Payment Type</b> <sup>*</sup></label>
+                                            <br>
+        
+                                            <input type="radio" checked="" name="payment_type" value="1">
+                                            <span>Razorpay</span>
+        
+                                            <input type="radio" name="payment_type" value="2">
+                                            <span>Paypal</span> -->
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 edu_bottom_20">
+                                        <div class="group1 ">
+                                            <label><b>SMTP Host</b><sup> <code>*</code></sup></label><br>
+                                            <input type="text" name="smtp_host" value="mail.avadhutkumbhar.in"
+                                                class="form-control require my-3" placeholder="Host">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 edu_bottom_20">
+                                        <div class="group2">
+                                            <label><b>SMTP Username</b><sup> <code>*</code></sup></label>
+                                            <input type="text" class="form-control require my-3" name="smtp_username"
+                                                value="eacademysupport@avadhutkumbhar.in"
+                                                placeholder="Enter your email address's username here.">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 edu_bottom_20">
+                                        <div class="group3">
+                                            <label><b>SMTP Password</b><sup> <code>*</code></sup></label>
+                                            <input type="password" name="smtp_password" value="avdhu@8677"
+                                                class="form-control require my-3" placeholder="Password">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 edu_bottom_20">
+                                        <div class="group4">
+                                            <label><b>SMTP Port</b><sup> <code>*</code></sup></label>
+                                            <input type="text" name="smtp_port" value="465"
+                                                class="form-control require my-3" placeholder="Port">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-12 edu_bottom_20">
+                                        <div class="group5">
+                                            <label><b>SMTP Encryption</b><sup> <code>*</code></sup></label><br>
+                                            <div class="radio-btn-space">
+                                                <label>TLC</label>
+                                                <input type="radio" class="smtp_encryption my-3 py-2"
+                                                    name="smtp_encryption" value="tlc">
+                                                <label>SSL</label>
+                                                <input type="radio" class="smtp_encryption my-3 py-2" checked=""
+                                                    name="smtp_encryption" value="ssl">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                                        <button type="button"
+                                            class="btn btn-Button color button w-30 py-2 my-3 ">Save</button>
+
+                                        <!--<button type="button" class="btn btn-primary updateTestEmailDetails">Test E-mail Server</button>-->
+
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+        </div>
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
