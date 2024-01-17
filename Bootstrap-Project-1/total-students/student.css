@@ -1,0 +1,34 @@
+
+
+/* .section-2{
+    padding: 20px 20px 6px;
+} */
+.table tbody td{
+    color:#45808d;
+    font-weight: 450;
+}
+
+.offcanvas-header{
+    padding: 15px 15px 15px 25px;
+    background-color: #57808b;
+    text-align: left;
+        min-height: 80px;
+        display: flex;
+        align-items: center;
+        /* justify-content: left; */
+        flex-wrap: wrap;
+    }
+    .menu-list{
+        text-align: left;
+        color: #45808d;
+        padding: 16px 15px 16px 30px;
+        font-family:'Poppins' sans-serif;
+        font-weight: 400;
+    }
+    
+    .admin-menu a{
+        color: #45808d;
+        text-decoration: none;
+        display: block;
+        padding: 0px 0;    
+    }
