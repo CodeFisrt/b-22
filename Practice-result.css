@@ -1,0 +1,25 @@
+.colour{
+    color: #45818e;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.colour1{
+    color: #45818e;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.search{
+    background-color: #45818e;
+    color: white;
+    height: 36px;
+    width: 150px;
+
+}
+.class{
+    color: white;
+  
+}
+.background{
+    background-color: #45818e;
+}
