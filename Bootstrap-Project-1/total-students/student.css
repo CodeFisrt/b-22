@@ -32,3 +32,11 @@
         display: block;
         padding: 0px 0;    
     }
+    .container-fluid {
+        padding: 20px;
+       
+    }
+    .btn{
+        background-color:#45808d;
+       
+    }

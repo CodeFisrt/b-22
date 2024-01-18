@@ -1,20 +1,10 @@
-
-
-
-.table tbody td{
-    color:#45808d;
-    font-weight: 450;
+.section-2{
+    background-color: #b4d5df;
 }
-
-
-/* .section-2{
-    padding: 20px 20px 6px;
-} */
-.table tbody td{
-    color:#45808d;
-    font-weight: 450;
+.container-fluid {
+    padding: 20px;
+   
 }
-
 .offcanvas-header{
     padding: 15px 15px 15px 25px;
     background-color: #57808b;
@@ -22,7 +12,6 @@
         min-height: 80px;
         display: flex;
         align-items: center;
-        /* justify-content: left; */
         flex-wrap: wrap;
     }
     .menu-list{
@@ -39,12 +28,3 @@
         display: block;
         padding: 0px 0;    
     }
-    .container-fluid {
-        padding: 20px;
-       
-    }
-    .btn{
-        background-color:#45808d;
-       
-    }
-    
