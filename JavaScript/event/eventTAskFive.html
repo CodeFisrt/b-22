@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <script>
+        function Addition() {
+            var textNumberFirst = document.getElementById('textBoxFirst').value;
+            var textNumberSecond = document.getElementById('textBoxFirst').value;
+            var ResultText = parseInt(textNumberFirst) + parseInt(textNumberSecond)
+            document.getElementById('textBoxThird').value = ResultText;
+        }
+
+        function Multiplication() {
+            var textNumberFirst = document.getElementById('textBoxFirst').value;
+            var textNumberSecond = document.getElementById('textBoxFirst').value;
+            var ResultText = parseInt(textNumberFirst) * parseInt(textNumberSecond)
+            document.getElementById('textBoxThird').value = ResultText;
+        }
+
+        function Subtraction() {
+            var textNumberFirst = document.getElementById('textBoxFirst').value;
+            var textNumberSecond = document.getElementById('textBoxFirst').value;
+            var ResultText = parseInt(textNumberFirst) - parseInt(textNumberSecond)
+            document.getElementById('textBoxThird').value = ResultText;
+        }
+
+        function division() {
+            var textNumberFirst = document.getElementById('textBoxFirst').value;
+            var textNumberSecond = document.getElementById('textBoxFirst').value;
+            var ResultText = parseInt(textNumberFirst) / parseInt(textNumberSecond)
+            document.getElementById('textBoxThird').value = ResultText;
+        }
+    </script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mt-4">
+                <form action="">
+                    <input type="text" id="textBoxFirst" class="form-control" placeholder="Enter any number"><br>
+                    <input type="text" class="form-control" id="textBoxSecond" placeholder="Enter any number"><br>
+                    <input type="text" class="form-control" placeholder="Result" id="textBoxThird"><br>
+                    <button type="button" class="btn btn-primary" onclick="Addition()">Addition</button>
+                    <button type="button" class="btn btn-info" onclick="Multiplication()">Multiplication </button>
+                    <button type="button" class="btn btn-secondary" onclick="Subtraction()">Subtraction</button>
+                    <button type="button" class="btn btn-dark" onclick="division()">Division</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
