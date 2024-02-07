@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Ticket Information</title>
+</head>
+
+<body>
+
+    <script>
+        // Train Ticket Information Object
+
+        debugger
+        var trainTicket = {
+            trainName: "Vande Matatram Train",
+            trainNo: "T123",
+            noOfPassengers: 8,
+            from: "Pune ",
+            to: "Mumbai",
+            dateOfJourney: "2024-02-10"
+        };
+
+
+        function printTicketInfo(a) {
+            var createPTag = document.createElement('p');
+            createPTag.innerHTML = `
+            <p>Train Name :</p> ${a.trainName}<br>
+            <p>Train No :</p> ${a.trainNo}<br>
+            <p>Train number of Passinger</p> ${a.noOfPassengers}<br>
+            <p>From :</p> ${a.from}<br>
+            <p>To :</p> ${a.to}<br>
+            <p>Date of journey :</p> ${a.dateOfJourney}<br>
+            `
+            document.body.appendChild(createPTag)
+        }
+        printTicketInfo(trainTicket);
+    </script>
+
+</body>
+
+</html>

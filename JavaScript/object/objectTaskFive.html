@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <script>
+        function clearObjact() {
+            document.getElementById('textBoxFirst').value = "";
+            document.getElementById('textBoxSeconad').value = "";
+            document.getElementById('textBoxThird').value = "";
+            document.getElementById('textBoxFour').value = "";
+            document.getElementById('textBoxFive').value = "";
+        }
+
+        function printObject() {
+            var printEmpName = document.getElementById('textBoxFirst').value;
+            var printEmpContactNo = document.getElementById('textBoxSeconad').value;
+            var printTeamLeadName = document.getElementById('textBoxThird').value;
+            document.getElementById('PrintEmpInformation').innerText = printEmpName;
+            document.getElementById('PrintEmpInformation1').innerText = printEmpContactNo;
+            document.getElementById('PrintEmpInformation2').innerText = printTeamLeadName;
+
+            var printDept = document.getElementById('textBoxFour').value;
+            var printTech = document.getElementById('textBoxFive').value;
+
+            document.getElementById('PrintEmpInformation3').innerHTML = printDept;
+            document.getElementById('PrintEmpInformation4').innerHTML = printTech;
+        }
+    </script>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-4">
+                <form action="">
+                    <input type="text" placeholder="Employee Name" class="form-control" id="textBoxFirst">
+                </form>
+            </div>
+            <div class="col-md-4">
+                <form action="">
+                    <input type="number" placeholder="Contact No" class="form-control" id="textBoxSeconad">
+                </form>
+            </div>
+            <div class="col-md-4">
+                <form action="">
+                    <input type="text" placeholder="Team Lead Name" class="form-control" id="textBoxThird">
+                </form>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-md-6">
+                <select name="" id="textBoxFour" class="form-control">
+                    <option>Sale Department</option>
+                    <option>Sale</option>
+                    <option>Marketing</option>
+                    <option>Development</option>
+                    <option>Testting</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <select name="" id="textBoxFive" class="form-control">
+                    <option>Select Technologies</option>
+                    <option>HTML</option>
+                    <option>PYTHON</option>
+                    <option>JAVASCRIPT</option>
+                    <option>NODE JS</option>
+                </select>
+            </div>
+        </div><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <form action="">
+                    <button type="button" class="btn btn-primary" onclick="clearObjact()">Clear Object</button>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <form action="">
+                    <button type="button" class="btn btn-success">Save Object</button>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <form action="">
+                    <button type="button" class="btn btn-danger" onclick="printObject()">Print Object</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <b>Employee name::<p id="PrintEmpInformation" style="color: red;"></p></b>
+                <b>Employee Contact No::<p id="PrintEmpInformation1" style="color: red;"></p></b>
+                <b>Team Lead Name::<p id="PrintEmpInformation2" style="color: red;"></p></b>
+                <b>Sale Department::<p id="PrintEmpInformation3" style="color: red;"></p></b>
+                <b>Select Technologies::<p id="PrintEmpInformation4" style="color: red;"></p></b>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
